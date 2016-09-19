@@ -15,14 +15,12 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'sg-916' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'sg-916' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'sg-916' ), 'sg-916', '<a href="https://www.sarahgebauer.com" rel="designer">Sarah Gebauer OÜ</a>' ); ?>
+			Copyright © 2015 -2016 Sarah Gebauer
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<script src="js/main.js"></script>
 </body>
 </html>

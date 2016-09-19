@@ -623,6 +623,21 @@ header {
 	background: #FFF7F0;
 }
 
+.front-flex-parent {
+	display: flex;
+	flex-flow: row wrap;
+	width: 62rem;
+	margin: 0 auto;
+}
+
+.front-flex-parent::nth-child(odd) {
+	margin-right: 4rem;
+}
+
+.front-flex-child {
+	flex: 0 0 29rem;	
+}
+
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
